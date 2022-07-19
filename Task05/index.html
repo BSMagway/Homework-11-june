@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    li {
+        list-style-type: none;
+    }
+    .none {
+        display: none;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .normal {
+        font-weight: normal;
+    }
+
+</style>
+<body>
+    <ul id="main">
+        <li class="hide">Frontend
+            <ul class="none">
+                <li>HTML</li>
+                <li class="hide">CSS
+                    <ul class="none">
+                        <li>Bootstrap</li>
+                        <li>LESS</li>
+                        <li>SASS</li>
+                    </ul>
+                </li>
+                <li class="hide">JavaScript
+                    <ul class="none">
+                        <li>JQuery</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="hide">Backend
+            <ul class="none">
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Node JS</li>
+            </ul>
+        </li>
+        <li class="hide">Database
+            <ul class="none">
+                <li>Oracle</li>
+                <li>MySQL</li>
+                <li>M SQL</li>
+            </ul>
+        </li>        
+    </ul>  
+</body>
+</html>
